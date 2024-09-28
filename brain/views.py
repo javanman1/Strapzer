@@ -200,7 +200,7 @@ def add_comment(request, username):
 
 openai_api_key = 'input-your-key'
 openai.api_key = openai_api_key
-genai.configure(api_key="AIzaSyAvHNBwZ2afilLoJBCVTFGLcwrMK4eXfyo")
+genai.configure(api_key="My API")
 
 # Set up the model
 generation_config = {
